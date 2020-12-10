@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github.io/markup-practice/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/github.io/markup-practice/static/js/main.ee88870d.chunk.js",
+    "main.js.map": "/github.io/markup-practice/static/js/main.ee88870d.chunk.js.map",
+    "runtime-main.js": "/github.io/markup-practice/static/js/runtime-main.d1d4710f.js",
+    "runtime-main.js.map": "/github.io/markup-practice/static/js/runtime-main.d1d4710f.js.map",
+    "static/js/2.cef817f1.chunk.js": "/github.io/markup-practice/static/js/2.cef817f1.chunk.js",
+    "static/js/2.cef817f1.chunk.js.map": "/github.io/markup-practice/static/js/2.cef817f1.chunk.js.map",
+    "static/js/3.17ba1078.chunk.js": "/github.io/markup-practice/static/js/3.17ba1078.chunk.js",
+    "static/js/3.17ba1078.chunk.js.map": "/github.io/markup-practice/static/js/3.17ba1078.chunk.js.map",
+    "index.html": "/github.io/markup-practice/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/github.io/markup-practice/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.cef817f1.chunk.js.LICENSE.txt": "/github.io/markup-practice/static/js/2.cef817f1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/github.io/markup-practice/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1d4710f.js",
+    "static/js/2.cef817f1.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.ee88870d.chunk.js"
+  ]
+}
