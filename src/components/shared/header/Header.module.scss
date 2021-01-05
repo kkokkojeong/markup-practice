@@ -1,0 +1,138 @@
+// TODO: 차후 공통으로 뺄 것
+.blind {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 56px;
+  width: 100%;
+  padding: 0 8px;
+  background-color: #fff;
+
+  button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .left_header {
+    float: left;
+    height: 100%;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .right_header {
+    float: right;
+    height: 100%;
+    font-size: 0;
+    line-height: 0;
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.logo {
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
+
+  .link {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+  }
+  .icon {
+    width: 80px;
+    height: 100%;
+  }
+  .unit_nation {
+    display: inline-block;
+    height: 100%;
+    margin-left: 2px;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: normal;
+    color: #606060;
+    vertical-align: top;
+  }
+}
+
+.button_lnb {
+  margin-right: 4px;
+  padding: 8px;
+  vertical-align: middle;
+
+  .icon_menu {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    fill: #808080;
+  }
+}
+
+.search_area {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.upload_area {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu_area {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.alert_area {
+  display: none;
+  position: relative;
+  vertical-align: middle;
+}
+.profile_area {
+  position: relative;
+  display: inline-block;
+  margin: 1px 14px;
+  vertical-align: middle;
+
+  img {
+    vertical-align: top;
+  }
+}
+
+.button_profile,
+.button_alert,
+.button_menu,
+.button_upload,
+.button_search {
+  padding: 8px;
+  vertical-align: middle;
+}
+.button_profile {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icon_search,
+.icon_upload,
+.icon_menu,
+.icon_notification {
+  display: block;
+  fill: #808080;
+}
