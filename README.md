@@ -2,6 +2,10 @@
 
 The goal of this project is to improve markup development skills.
 
+# Result
+
+[Page Url](https://kkokkojeong.github.io/markup-practice/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
