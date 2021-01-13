@@ -1,10 +1,11 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState } from 'react';
 import { ReactComponent as LnbIcon } from '../../../assets/icons/Lnb.svg';
 import { ReactComponent as LogoIcon } from '../../../assets/icons/Logo.svg';
-import { ReactComponent as Search } from '../../../assets/icons/Search.svg';
-import { ReactComponent as Upload } from '../../../assets/icons/Upload.svg';
-import { ReactComponent as Menu } from '../../../assets/icons/Menu.svg';
-import { ReactComponent as Alert } from '../../../assets/icons/Alert.svg';
+import { ReactComponent as SearchIcon } from '../../../assets/icons/Search.svg';
+import { ReactComponent as UploadIcon } from '../../../assets/icons/Upload.svg';
+import { ReactComponent as MenuIcon } from '../../../assets/icons/Menu.svg';
+import { ReactComponent as AlertIcon } from '../../../assets/icons/Alert.svg';
+import Menu from '../menu/Menu';
 
 import css from './Header.module.scss';
 
@@ -13,6 +14,8 @@ interface Props {
 }
 
 const Header = ({children}: Props) => {
+
+    const [showMenu, setShowMenu] = useState(false);
     
     // Header click event handler
     const onClickLnb = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -28,7 +31,7 @@ const Header = ({children}: Props) => {
         console.log('onClickUpload', e);
     }
     const onClickMenu = (e: React.MouseEvent<HTMLButtonElement>) => {
-        console.log('onClickMenu', e);
+        setShowMenu(!showMenu);
     }
     const onClickAlert = (e: React.MouseEvent<HTMLButtonElement>) => {
         console.log('onClickAlert', e);
@@ -59,28 +62,31 @@ const Header = ({children}: Props) => {
                 <div className={css.search_area}>
                     <button className={css.button_search} type="button" onClick={onClickSearch}>
                         <span className={css.blind}>검색</span>
-                        <Search className={css.icon} />
+                        <SearchIcon className={css.icon} />
                     </button>
                 </div>
                 {/* upload */}
                 <div className={css.upload_area} >
                     <button className={css.button_upload} type="button" onClick={onClickUpload}>
                         <span className={css.blind}>업로드</span>
-                        <Upload className={css.icon} />
+                        <UploadIcon className={css.icon} />
                     </button>
                 </div>
                 {/* app-menu */}
                 <div className={css.menu_area}>
                     <button className={css.button_menu} type="button" onClick={onClickMenu}>
                         <span className={css.blind}>메뉴</span>
-                        <Menu className={css.icon} />
+                        <MenuIcon className={css.icon} />
                     </button>
+                    {showMenu && (
+                        <Menu />
+                    )}
                 </div>
                 {/* alert */}
                 <div className={css.menu_area}>
                     <button className={css.button_alert} type="button" onClick={onClickAlert}>
                         <span className={css.blind}>알람</span>
-                        <Alert className={css.icon} />
+                        <AlertIcon className={css.icon} />
                     </button>
                 </div>
                 {/* my profile */}
