@@ -1,0 +1,43 @@
+.menu {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-width: 0 1px 1px 1px;
+  background-color: rgba(255, 255, 255, 0.98);
+
+  .menu_section {
+    padding: 8px 0;
+    & + .menu_section {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+  .menu_item {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 0 16px;
+    text-align: left;
+    white-space: nowrap;
+    flex-direction: row;
+    align-items: center;
+
+    .menu_item_text {
+      flex: 1;
+      font-size: 14px;
+      line-height: 21px;
+      color: #030303;
+    }
+
+    svg {
+      flex: 0 0 auto;
+      display: inline-block;
+      margin-right: 16px;
+      vertical-align: top;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
