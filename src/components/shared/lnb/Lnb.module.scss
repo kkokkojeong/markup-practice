@@ -12,14 +12,24 @@
     margin: 0;
     padding: 0;
   }
-
   a {
     text-decoration: none;
     cursor: pointer;
   }
 
-  li {
+  .lnb_container_link_list {
     list-style: none;
+
+    &.link_is_selected {
+      .lnb_container_link {
+        .lnb_container_link_icon {
+          fill: #f00;
+        }
+        .lnb_container_link_text {
+          color: #c00;
+        }
+      }
+    }
   }
 
   .lnb_container_link {
@@ -33,15 +43,6 @@
     height: 24px;
     margin: 0 auto;
     fill: #606060;
-  }
-
-  &.on {
-    .svg_style {
-      fill: #f00;
-    }
-    .text {
-      color: #c00;
-    }
   }
 
   .lnb_container_link_text {
