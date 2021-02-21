@@ -1,0 +1,54 @@
+.lnb_container {
+  display: block;
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  padding: 4px 0;
+  background-color: #fff;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .lnb_container_link {
+    display: block;
+    padding: 16px 0 14px;
+  }
+
+  .lnb_container_link_icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    fill: #606060;
+  }
+
+  &.on {
+    .svg_style {
+      fill: #f00;
+    }
+    .text {
+      color: #c00;
+    }
+  }
+
+  .lnb_container_link_text {
+    display: block;
+    margin-top: 6px;
+    font-size: 10px;
+    color: #606060;
+    text-align: center;
+  }
+}
