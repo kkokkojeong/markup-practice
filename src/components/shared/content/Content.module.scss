@@ -1,0 +1,42 @@
+.container {
+  overflow-x: auto;
+  background-color: #f9f9f9;
+}
+
+.advertisement_container {
+  margin-bottom: 32px;
+  padding: 32px 24px;
+  background-color: #fff;
+
+  .advertisement_container_inner {
+    position: relative;
+    width: 100%;
+    // width: 214px;
+    max-width: 1284px;
+    height: 260px - (32px * 2);
+    margin: 0 auto;
+  }
+
+  .blind {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  .advertisement_container_image {
+    width: 320px;
+    height: 24px;
+  }
+
+  .advertisement_container_title {
+    display: block;
+    margin-top: 8px;
+    font-size: 26px;
+    line-height: 30px;
+    color: #131313;
+    font-weight: 400;
+  }
+}
