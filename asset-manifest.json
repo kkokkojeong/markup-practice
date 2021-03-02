@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/markup-practice/static/css/main.8eb8729f.chunk.css",
-    "main.js": "/markup-practice/static/js/main.9f0b4f4e.chunk.js",
-    "main.js.map": "/markup-practice/static/js/main.9f0b4f4e.chunk.js.map",
-    "runtime-main.js": "/markup-practice/static/js/runtime-main.bdfccf2f.js",
-    "runtime-main.js.map": "/markup-practice/static/js/runtime-main.bdfccf2f.js.map",
-    "static/js/2.6e81c1a5.chunk.js": "/markup-practice/static/js/2.6e81c1a5.chunk.js",
-    "static/js/2.6e81c1a5.chunk.js.map": "/markup-practice/static/js/2.6e81c1a5.chunk.js.map",
-    "static/js/3.4164b366.chunk.js": "/markup-practice/static/js/3.4164b366.chunk.js",
-    "static/js/3.4164b366.chunk.js.map": "/markup-practice/static/js/3.4164b366.chunk.js.map",
+    "main.css": "/markup-practice/static/css/main.4dcfa0bc.chunk.css",
+    "main.js": "/markup-practice/static/js/main.24bb2466.chunk.js",
+    "main.js.map": "/markup-practice/static/js/main.24bb2466.chunk.js.map",
+    "runtime-main.js": "/markup-practice/static/js/runtime-main.88e4d889.js",
+    "runtime-main.js.map": "/markup-practice/static/js/runtime-main.88e4d889.js.map",
+    "static/js/2.b794dade.chunk.js": "/markup-practice/static/js/2.b794dade.chunk.js",
+    "static/js/2.b794dade.chunk.js.map": "/markup-practice/static/js/2.b794dade.chunk.js.map",
+    "static/js/3.47ab25e5.chunk.js": "/markup-practice/static/js/3.47ab25e5.chunk.js",
+    "static/js/3.47ab25e5.chunk.js.map": "/markup-practice/static/js/3.47ab25e5.chunk.js.map",
     "index.html": "/markup-practice/index.html",
-    "static/css/main.8eb8729f.chunk.css.map": "/markup-practice/static/css/main.8eb8729f.chunk.css.map",
-    "static/js/2.6e81c1a5.chunk.js.LICENSE.txt": "/markup-practice/static/js/2.6e81c1a5.chunk.js.LICENSE.txt",
+    "static/css/main.4dcfa0bc.chunk.css.map": "/markup-practice/static/css/main.4dcfa0bc.chunk.css.map",
+    "static/js/2.b794dade.chunk.js.LICENSE.txt": "/markup-practice/static/js/2.b794dade.chunk.js.LICENSE.txt",
     "static/media/Alert.a27eb5a9.svg": "/markup-practice/static/media/Alert.a27eb5a9.svg",
     "static/media/Lnb.e071829d.svg": "/markup-practice/static/media/Lnb.e071829d.svg",
     "static/media/LnbBox.58be5e48.svg": "/markup-practice/static/media/LnbBox.58be5e48.svg",
@@ -29,9 +29,9 @@
     "static/media/Upload.9ee89a3e.svg": "/markup-practice/static/media/Upload.9ee89a3e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdfccf2f.js",
-    "static/js/2.6e81c1a5.chunk.js",
-    "static/css/main.8eb8729f.chunk.css",
-    "static/js/main.9f0b4f4e.chunk.js"
+    "static/js/runtime-main.88e4d889.js",
+    "static/js/2.b794dade.chunk.js",
+    "static/css/main.4dcfa0bc.chunk.css",
+    "static/js/main.24bb2466.chunk.js"
   ]
 }
