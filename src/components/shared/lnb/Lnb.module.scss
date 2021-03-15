@@ -8,6 +8,10 @@
   padding: 4px 0;
   background-color: #fff;
 
+  @media screen and (max-width: 809px) {
+    display: none;
+  }
+
   ul {
     margin: 0;
     padding: 0;

@@ -1,4 +1,8 @@
 .app_container {
   padding-top: 56px;
   padding-left: 72px;
+
+  @media screen and (max-width: 809px) {
+    padding-left: 0px;
+  }
 }
