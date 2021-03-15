@@ -101,9 +101,13 @@
   vertical-align: middle;
 }
 .alert_area {
-  display: none;
+  display: inline-block;
   position: relative;
   vertical-align: middle;
+
+  @media screen and (max-width: 429px) {
+    display: none;
+  }
 }
 .profile_area {
   position: relative;
