@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/markup-practice/static/css/main.9981be5e.chunk.css",
-    "main.js": "/markup-practice/static/js/main.24bb2466.chunk.js",
-    "main.js.map": "/markup-practice/static/js/main.24bb2466.chunk.js.map",
+    "main.css": "/markup-practice/static/css/main.6af681a3.chunk.css",
+    "main.js": "/markup-practice/static/js/main.42801fcc.chunk.js",
+    "main.js.map": "/markup-practice/static/js/main.42801fcc.chunk.js.map",
     "runtime-main.js": "/markup-practice/static/js/runtime-main.88e4d889.js",
     "runtime-main.js.map": "/markup-practice/static/js/runtime-main.88e4d889.js.map",
     "static/js/2.b794dade.chunk.js": "/markup-practice/static/js/2.b794dade.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.47ab25e5.chunk.js": "/markup-practice/static/js/3.47ab25e5.chunk.js",
     "static/js/3.47ab25e5.chunk.js.map": "/markup-practice/static/js/3.47ab25e5.chunk.js.map",
     "index.html": "/markup-practice/index.html",
-    "static/css/main.9981be5e.chunk.css.map": "/markup-practice/static/css/main.9981be5e.chunk.css.map",
+    "static/css/main.6af681a3.chunk.css.map": "/markup-practice/static/css/main.6af681a3.chunk.css.map",
     "static/js/2.b794dade.chunk.js.LICENSE.txt": "/markup-practice/static/js/2.b794dade.chunk.js.LICENSE.txt",
     "static/media/Alert.a27eb5a9.svg": "/markup-practice/static/media/Alert.a27eb5a9.svg",
     "static/media/Lnb.e071829d.svg": "/markup-practice/static/media/Lnb.e071829d.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.88e4d889.js",
     "static/js/2.b794dade.chunk.js",
-    "static/css/main.9981be5e.chunk.css",
-    "static/js/main.24bb2466.chunk.js"
+    "static/css/main.6af681a3.chunk.css",
+    "static/js/main.42801fcc.chunk.js"
   ]
 }
