@@ -1,8 +1,10 @@
 import React, { useMemo, useState } from 'react';
+import VideoItem from './video-item/VideoItem';
+
 import mockContents from '../../../__mock__/contents.json';
 
 import css from './Content.module.scss'
-import VideoItem from './video-item/VideoItem';
+
 
 const ContentContainer = () => {
     const [imgSrc] = useState<string>("https://www.gstatic.com/youtube/img/promos/growth/864dc47e45a7a0b06602f73155980de282b939a6d0adc7bdcda231f965bf796a_640x48.png");
