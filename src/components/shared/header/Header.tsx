@@ -83,7 +83,7 @@ const Header = ({children}: Props) => {
                     )}
                 </div>
                 {/* alert */}
-                <div className={css.menu_area}>
+                <div className={css.alert_area}>
                     <button className={css.button_alert} type="button" onClick={onClickAlert}>
                         <span className={css.blind}>알람</span>
                         <AlertIcon className={css.icon} />
