@@ -1,0 +1,27 @@
+.video_item {
+  list-style: none;
+  margin-bottom: 40px;
+
+  .video_item_player {
+    overflow: hidden;
+    position: relative;
+
+    .video_item_player_thumbnail {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.video_item_player_link {
+  display: block;
+  height: 0;
+  padding-top: 56.25%;
+
+  text-decoration: none;
+  cursor: pointer;
+}

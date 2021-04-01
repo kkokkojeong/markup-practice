@@ -3,6 +3,8 @@ import React from 'react';
 import { ReactComponent as VideoAddList } from '../../../../assets/icons/VideoAddList.svg';
 import { ReactComponent as VideoAddKeep } from '../../../../assets/icons/VideoAddKeep.svg';
 
+import css from './VideoItem.module.scss';
+
 type VidioType = 'default' | 'streaming';
 
 interface Props {
@@ -36,11 +38,11 @@ const VideoItem = ({
 
     return (
         <>
-            <li>
+            <li className={css.video_item}>
                 {/* 영상 thumbnail, 재생시간 */}
-                <div>
-                    <a href='#'>
-                        <img src={thumbnail} width="36" height="36" alt="" />
+                <div className={css.video_item_player}>
+                    <a href='#' className={css.video_item_player_link}>
+                        <img src={thumbnail} width="36" height="36" alt="" className={css.video_item_player_thumbnail} />
                         <span>{duration}</span>
                     </a>
                 </div>

@@ -41,23 +41,30 @@ const ContentContainer = () => {
                 </div>
             </div>
             {/* 동영상 콘텐츠 */}
-            {contents && contents.map((content: any, idx: number) => {
-                const { type, thumbnail, profile, duration, title, channel, date, count  } = content
-                const key = `${title}${idx}`;
-
-                return (
-                    <VideoItem 
-                        key={key}
-                        type={type}
-                        thumbnail={thumbnail}
-                        profile={profile}
-                        duration={duration}
-                        title={title}
-                        channel={channel}
-                        date={date}
-                        count={count}
-                    />);
-            })}
+            <div className={css.content_container}>
+                {/* Flow Section */}
+                <div className={css.content_container_flow}>
+                    <ul className={css.content_container_flow_list}>
+                        {contents && contents.map((content: any, idx: number) => {
+                            const { type, thumbnail, profile, duration, title, channel, date, count  } = content
+                            const key = `${title}${idx}`;
+                            console.log(thumbnail);
+                            return (
+                                <VideoItem 
+                                    key={key}
+                                    type={type}
+                                    thumbnail={thumbnail}
+                                    profile={profile}
+                                    duration={duration}
+                                    title={title}
+                                    channel={channel}
+                                    date={date}
+                                    count={count}
+                                />);
+                        })}
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 }

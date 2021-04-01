@@ -40,3 +40,16 @@
     font-weight: 400;
   }
 }
+
+.content_container {
+  max-width: 1284px;
+
+  .content_container_flow {
+    margin: 0 24px;
+  }
+}
+
+.content_container_flow_list {
+  margin: 0 -8px;
+  text-align: center;
+}
