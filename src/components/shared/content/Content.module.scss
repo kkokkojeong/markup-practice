@@ -40,3 +40,32 @@
     font-weight: 400;
   }
 }
+
+.content_container {
+  overflow-x: auto;
+  background-color: #f9f9f9;
+
+  .content_container_flow {
+    max-width: 320px + 16px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 721px) {
+      max-width: (2 * 320px) + 16px;
+    }
+    @media screen and (min-width: 889px) {
+      max-width: (3 * 320px) + 16px;
+    }
+    @media screen and (min-width: 1145px) {
+      max-width: (4 * 320px) + 16px;
+    }
+  }
+}
+
+.content_container_flow_list {
+  margin: 0 -8px;
+  text-align: center;
+
+  @media screen and (min-width: 801px) {
+    text-align: left;
+  }
+}
