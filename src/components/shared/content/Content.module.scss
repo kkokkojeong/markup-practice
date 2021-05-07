@@ -39,6 +39,39 @@
     color: #131313;
     font-weight: 400;
   }
+
+  .advertisement_container_free {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 16px;
+    border: 2px solid #065fd4;
+    font-size: 14px;
+    height: 19px;
+    color: #065fd4;
+
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .advertisement_container_close_button {
+    position: absolute;
+    top: -24px;
+    right: -11px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0px;
+
+    cursor: pointer;
+    border: 0;
+    border-radius: 0;
+
+    svg {
+      display: block;
+      width: 24px;
+      height: 24px;
+      fill: rgba(0, 0, 0, 0.8);
+    }
+  }
 }
 
 .content_container {
