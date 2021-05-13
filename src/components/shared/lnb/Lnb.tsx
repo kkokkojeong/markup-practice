@@ -1,11 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { ReactComponent as LnbHome } from '../../../assets/icons/LnbHome.svg';
-import { ReactComponent as LnbPopular } from '../../../assets/icons/LnbPopular.svg';
+// import { ReactComponent as LnbPopular } from '../../../assets/icons/LnbPopular.svg';
 import { ReactComponent as LnbSubscribe } from '../../../assets/icons/LnbSubscribe.svg';
 import { ReactComponent as LnbBox } from '../../../assets/icons/LnbBox.svg';
 
 import css from './Lnb.module.scss';
+import { useHistory } from 'react-router-dom';
+import RoutesPath from '../../../constant/RoutesPath';
 
 /**
  * LNB (Local Navigation Bar) 정의
@@ -18,12 +20,16 @@ import css from './Lnb.module.scss';
   | 'box'; // 보관함
 
  const Lnb = () => {
+    const history = useHistory();
     const [selectedLink, setSelectedLink] = useState<LnbMenuType>('home');
 
     const onClickLnb = (type: LnbMenuType) => (e: React.MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault(); // a tag 이벤트 버블링 방지
-        console.log('onClickLnb', type, e);
         setSelectedLink(type);
+
+        if (type === 'subscribe') {
+            history.push(RoutesPath.Subscriptions)
+        }
     }
 
     return (
@@ -37,12 +43,12 @@ import css from './Lnb.module.scss';
                     </a>
                 </li>
                 {/* 인기 */}
-                <li role="presentation" className={`${css.lnb_container_link_list} ${selectedLink === 'popular' ? `${css.link_is_selected}` : ''}`}>
+                {/* <li role="presentation" className={`${css.lnb_container_link_list} ${selectedLink === 'popular' ? `${css.link_is_selected}` : ''}`}>
                     <a href='#' className={`${css.lnb_container_link}`} onClick={onClickLnb('popular')}>
                         <LnbPopular className={css.lnb_container_link_icon}/>
                         <span className={css.lnb_container_link_text}>인기</span>
                     </a>
-                </li>
+                </li> */}
                 {/* 구독 */}
                 <li role="presentation" className={`${css.lnb_container_link_list} ${selectedLink === 'subscribe' ? `${css.link_is_selected}` : ''}`}>
                     <a href='#' className={`${css.lnb_container_link}`} onClick={onClickLnb('subscribe')}>
